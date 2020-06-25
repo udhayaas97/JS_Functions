@@ -1,3 +1,5 @@
+// Write a JavaScript program to get the current date.
+
 function DateToday(separator = "-") {
     var date = new Date();
     var year = date.getFullYear();

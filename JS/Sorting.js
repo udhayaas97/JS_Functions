@@ -1,3 +1,6 @@
+// Write a JavaScript conditional statement to sort three numbers. Display an alert box to show
+// the result.
+
 function Sort(a, b, c) {
     var sort = [];
     if (a >= b && a >= c) {

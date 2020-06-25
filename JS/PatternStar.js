@@ -1,3 +1,11 @@
+// Write a JavaScript program to construct the following pattern, using a nested for loop.
+
+//   *
+//   * *
+//   * * *
+//   * * * *
+//   * * * * *
+
 function star(n = 5) {
     alert("Working");
     for (var i = 1; i <= n; i++) {
