@@ -16,3 +16,10 @@ function breaks(row, coloumn) {
     else
         return (row - 1) + (row * (coloumn - 1));
 }
+
+//or 
+
+function breaks_simple(row, coloumn) {
+    var total = row * coloumn;
+    return (total < 1) ? 0 : total - 1;
+}

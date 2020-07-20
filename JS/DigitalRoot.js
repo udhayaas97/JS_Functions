@@ -13,3 +13,9 @@ function digital_root(value) {
     } else
         return value;
 }
+
+// or
+
+function digital_root_simple(value) {
+    return ((value - 1) % 9) + 1;
+}

@@ -1,5 +1,8 @@
 // How Do You Implement Inheritance In Typescript?
+
+
 export { }
+
 class main {
     name: string;
     constructor(value: string) {
@@ -21,3 +24,15 @@ class sub extends main {
 let subcls = new sub("myname");
 subcls.subfn();
 subcls.mainfn();
+
+
+// or
+
+interface sample {
+    name: string,
+    age: number
+}
+
+interface sample2 extends sample {
+    school: String;
+}

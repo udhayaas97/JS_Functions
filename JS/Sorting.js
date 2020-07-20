@@ -35,3 +35,13 @@ function Sort(a, b, c) {
     }
     alert(sort[0] + ", " + sort[1] + ", " + sort[2]);
 }
+
+// If, without using conditional statement
+
+function Sort_simple(a, b, c) {
+    var array = [];
+    array.push(a);
+    array.push(b);
+    array.push(c);
+    return array.sort();
+}

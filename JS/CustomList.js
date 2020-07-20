@@ -22,9 +22,9 @@ function CustomList(arr, n) {
     return result;
 }
 
-function NoOfElemnt(arra, number) {
+function NoOfElemnt(array, number) {
     var nos = 0;
-    arra.forEach(element => {
+    array.forEach(element => {
         if (element == number)
             nos += 1;
     });
